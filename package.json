@@ -1,0 +1,20 @@
+{
+  "name": "tp8-prog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "producer": "node producer.js",
+    "consumer": "node consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "kafkajs": "^2.2.4",
+    "mongoose": "^9.11.4"
+  }
+}
